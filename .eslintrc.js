@@ -1,13 +1,14 @@
 module.exports = {
     "env": {
-        "browser": true
+        "browser": true,
+        "jquery": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
         "ecmaVersion": 5
     },
     "rules": {
-        "indent": ["error","tab"],
+        "indent": ["error",2],
         "linebreak-style": ["error", "windows"],
         "quotes": ["error","single"],
         "semi": ["error", "always"],

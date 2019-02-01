@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 700px;
   height: 100vh;
   min-height: 600px;
   margin: 0 auto;
@@ -45,11 +45,15 @@ body {
 }
 
 .header {
-  font-size: 56px;
+  font-size: 48px;
 }
 
 .quote {
+  height: 105px;
   font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .author {
