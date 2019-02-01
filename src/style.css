@@ -57,6 +57,7 @@ body {
 }
 
 .author {
+  height: 28px;
   margin-top: 0;
   font-size: 22px;
 }

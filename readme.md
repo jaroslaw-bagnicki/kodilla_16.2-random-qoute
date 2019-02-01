@@ -1,4 +1,4 @@
-# Random Qoute Machine
+# Random Quote Machine
 
 Layout with flexbox.
 

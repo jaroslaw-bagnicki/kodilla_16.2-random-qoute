@@ -10,10 +10,8 @@ var UIauthor = $('#author');
 var UIGetQuoteBtn = $('#get-quote-btn');
 var UITweetBtn = $('#tweet-btn');
 
-$(document).ready(function() {
-  getQuote();
-  UIGetQuoteBtn.click(getQuote);
-});
+getQuote();
+UIGetQuoteBtn.click(getQuote);
 
 function getQuote() {
   $.ajaxSetup({ cache: false });
